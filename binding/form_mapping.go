@@ -1,4 +1,4 @@
-// Copyright 2014 Manu Martinez-Almeida.  All rights reserved.
+// Copyright 2014 Manu Martinez-Almeida. All rights reserved.
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
@@ -19,7 +19,7 @@ import (
 var (
 	errUnknownType = errors.New("unknown type")
 
-	// ErrConvertMapStringSlice can not covert to map[string][]string
+	// ErrConvertMapStringSlice can not convert to map[string][]string
 	ErrConvertMapStringSlice = errors.New("can not convert to map slices of strings")
 
 	// ErrConvertToMapString can not convert to map[string]string
